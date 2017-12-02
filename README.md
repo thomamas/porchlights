@@ -10,7 +10,18 @@ DSL connection and move to faster and cheaper cable internet without
 static IP addresses. I also took the opportunity to and play with
 a few new technologies.
 
-There are three main components:
+## Hardware
+
+![](pics/switch.png)
+
+![](pics/floats.png)
+
+![](pics/crate.png)
+![](pics/puffer.png)
+
+## Software
+
+There are three main software components:
 
 1.  In AWS: API Gateway proxying to a Lambda function that updates a file
     in an S3 bucket with the desired outlet state.
@@ -84,6 +95,8 @@ This is pretty self explanatory. There's a web page and JavaScript.
 
 You'll want to put your API URL in the HTML file and you'll probably
 want to make it prettier.
+
+![Web Gui](pics/web.png)
 
 ## Perl Script
 
